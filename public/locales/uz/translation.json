@@ -81,7 +81,7 @@
     "loginHello": "Salom",
     "loginSignIn": "eBay-ga kirishingiz yoki",
     "loginCreateAccount": "hisob yaratishingiz",
-    "loginEmailPlaceholder": "Elektron pochta",
+    "loginUsernamePlaceholder": "Elektron pochta",
     "loginPasswordPlaceholder": "Parol",
     "loginContinue": "Davom etish",
     "loginStaySignedIn": "Tizimda qolish",

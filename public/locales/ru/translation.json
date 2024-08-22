@@ -81,7 +81,7 @@
     "loginHello": "Здравствуйте",
     "loginSignIn": "Войдите в eBay или",
     "loginCreateAccount": "создайте аккаунт",
-    "loginEmailPlaceholder": "Электронная почта",
+    "loginUsernamePlaceholder": "Электронная почта",
     "loginPasswordPlaceholder": "Пароль",
     "loginContinue": "Продолжить",
     "loginStaySignedIn": "Оставаться в системе",
