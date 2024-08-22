@@ -1,12 +1,13 @@
-import { NavLink } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import './App.css'
 import RoutesController from './routes'
 import Header from './components/header/Header'
 
 function App() {
+  const location = useLocation();
   return (
     <>
-      <Header />
+      {location.pathname !== '/login' && <Header />}
       <RoutesController />
     </>
   )

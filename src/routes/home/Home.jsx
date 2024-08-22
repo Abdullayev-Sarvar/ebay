@@ -4,6 +4,7 @@ import ProductSlice from '../../components/ProductSlice/ProductSlice'
 import Trending from '../../components/trending/Trending'
 import TodayDeals from '../../components/todayDeals/TodayDeals'
 import Footer from '../../components/footer/Footer'
+import Terms from '../../components/terms/Terms'
 
 const Home = () => { 
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Trending/>
       <TodayDeals/>
       <Footer/>
+      <Terms/>
     </>
   )
 }
