@@ -113,5 +113,8 @@
     "Category": "Category",
     "Order": "Order",
     "Tags": "Tags",
-    "Price": "Price"
+    "Price": "Price",
+    "productbtn1" : "Buy it Now",
+    "productbtn2" : "Add to cart",
+    "productbtn3" : "❤️ Add to watch list"
 }

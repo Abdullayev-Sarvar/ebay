@@ -59,9 +59,9 @@ const Product = () => {
           <div className='w-full h-full flex justify-around'>
             <NavLink className='w-[195px] text-[#3665F3] text-sm pl-5' to='/'>No Interest if paid in full in 6 mo on $99+*</NavLink>
             <div className='flex flex-col gap-4'>
-              <button className='w-[230px] text-sm bg-[#0053A0] text-white py-[10px] rounded-3xl buyBtn'>Buy it Now</button>
-              <button className='w-[230px] text-sm bg-[#3498CA] text-white py-[10px] rounded-3xl buyBtn'>Add to cart</button>
-              <button className='w-[230px] text-sm bg-transparent text-[#3665F3] border border-[#3665F3] py-[10px] rounded-3xl buyBtn'>❤️ Add to watch list</button>
+              <button className='w-[230px] text-sm bg-[#0053A0] text-white py-[10px] rounded-3xl buyBtn'>{t("productbtn1")}</button>
+              <button className='w-[230px] text-sm bg-[#3498CA] text-white py-[10px] rounded-3xl buyBtn'>{t("productbtn2")}</button>
+              <button className='w-[230px] text-sm bg-transparent text-[#3665F3] border border-[#3665F3] py-[10px] rounded-3xl buyBtn'>{t("productbtn3")}</button>
             </div>
           </div>
         </div>

@@ -113,5 +113,8 @@
     "Category": "Kategoriya:",
     "Order": "Tartib:",
     "Tags": "Teglar:",
-    "Price": "Narx:"
+    "Price": "Narx:",
+    "productbtn1" : "Hozir sotib olish",
+    "productbtn2" : "Savatga qo'shish",
+    "productbtn3" : "❤️ Добавить в список желаемого"
 }
