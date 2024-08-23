@@ -5,7 +5,7 @@ import { Suspense, lazy } from 'react'
 const Home = lazy(() => import('./home/Home'))
 const Login = lazy(() => import('./login/Login'))
 const Products = lazy(() => import('./products/Products'))
-const Product = lazy(() => import('./product/Product'))
+const SinglePage = lazy(() => import('./product/SinglePage'))
 
 const RoutesController = () => {
   return useRoutes([
@@ -28,9 +28,9 @@ const RoutesController = () => {
       </Suspense>
     },
     {
-      path: '/products/:id',
+      path: '/single/:id',
       element: <Suspense fallback={<div className='w-full h-screen flex justify-center items-center'><div className="loader"></div></div>}>
-        <Product />
+        <SinglePage />
       </Suspense>
     }
   ])

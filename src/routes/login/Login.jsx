@@ -64,7 +64,7 @@ const Login = () => {
     <>
       <Container>
         <div className='flex justify-between items-center py-3'>
-          <img src={logo} alt="" />
+          <NavLink to='/'><img src={logo} alt="" /></NavLink>
           <NavLink className='text-sm text-[#0654BA]' to='/'>{t('loginTellUs')}</NavLink>
         </div>
       </Container>
