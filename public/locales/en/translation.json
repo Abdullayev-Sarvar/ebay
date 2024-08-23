@@ -106,5 +106,12 @@
     "affiliates": "Affiliates",
     "help_contact": "Help & Contact",
     "site_map": "Site Map",
-    "backToProducts" : "See all eligible items and terms"
+    "backToProducts" : "See all eligible items and terms",
+    "NoneImage" : "No image available",
+    "Condition": "Condition",
+    "Name": "Name",
+    "Category": "Category",
+    "Order": "Order",
+    "Tags": "Tags",
+    "Price": "Price"
 }

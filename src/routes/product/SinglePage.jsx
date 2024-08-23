@@ -32,19 +32,19 @@ const Product = () => {
         {product.thumbnail ? (
           <img className='w-[400px] h-[500px]' src={product.thumbnail} alt={product.title} />
         ) : (
-          <div>No image available</div>
+          <div>{t("NoneImage")}</div>
         )}
         <div className='flex flex-col gap-3'>
           <NavLink to='/products' className='text-sm text-sky-400'>{t("backToProducts")}</NavLink>
           <strong className='text-xl border-b border-b-[#00000038] pb-3'>{product.title}</strong>
           <div className='flex gap-5'>
             <ul className='flex flex-col text-end'>
-              <span className='pb-[68px]'>Condition: </span>
-              <span>Name: </span>
-              <span className='py-7'>Category: </span>
-              <span>Order: </span>
-              <span className='py-6'>Tags: </span>
-              <span>Price:  </span>
+              <span className='pb-[68px]'>{t("Condition")}: </span>
+              <span>{t("Name")}: </span>
+              <span className='py-7'>{t("Category")}: </span>
+              <span>{t("Order")}: </span>
+              <span className='py-6'>{t("Tags")}: </span>
+              <span>{t("Price")}:  </span>
             </ul>
             <ul className='flex flex-col gap-5'>
               <p className=''>{product.description}</p>

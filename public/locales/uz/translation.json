@@ -106,5 +106,12 @@
     "affiliates": "Hamkorlar",
     "help_contact": "Yordam va aloqa",
     "site_map": "Sayt xaritasi",
-    "backToProducts" : "Barcha belgilangan mahsulotlarni ko'rish"
+    "backToProducts" : "Barcha belgilangan mahsulotlarni ko'rish",
+    "NoneImage" : "Rasm topilmadi",
+    "Condition": "Holat:",
+    "Name": "Nomi:",
+    "Category": "Kategoriya:",
+    "Order": "Tartib:",
+    "Tags": "Teglar:",
+    "Price": "Narx:"
 }
